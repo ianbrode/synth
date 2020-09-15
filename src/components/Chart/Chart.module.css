@@ -1,0 +1,11 @@
+.chart .anchor {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .3s ease;
+    cursor: pointer;
+}
+
+.chart:hover .anchor {
+    opacity: .7;
+    pointer-events: auto;
+}
